@@ -1,5 +1,6 @@
 body{
-    text-align: center;
+    text-align:center;
+    
 }
 
 
@@ -7,14 +8,26 @@ body{
 .show{
     background-color:cornsilk;
 }
-.row{
+/*.row{
     margin-top:50px;
     min-height:50px;
     justify-content: space-between;
-}
+}*/
 
 .image{
     width: 500px;
     height:auto;
    
+}
+
+.slide-image{
+    width: 20%; 
+    height: auto; 
+    max-width: 200px; 
+}
+
+.recommendation-container {
+    margin-bottom: 10px; 
+    border: 1px solid #ddd;
+    padding: 10px;
 }
